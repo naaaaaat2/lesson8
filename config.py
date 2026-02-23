@@ -1,9 +1,9 @@
-import os
+# config.py
 
-BASE_URL = os.getenv("YOUGILE_BASE_URL", "https://yougile.ru")
-TOKEN = os.getenv("YOUGILE_TOKEN")
+API_TOKEN = "ВАШ_ТОКЕН"  # вставьте свой токен сюда
+BASE_URL = "https://your.yougile.api-v2/auth/keys"  # вставьте URL API сюда
 
 HEADERS = {
-    "Authorization": f"Bearer {TOKEN}",
-    "Content-Type": "application/json"
+    'Authorization': f'Bearer {API_TOKEN}',
+    'Content-Type': 'application/json'
 }
