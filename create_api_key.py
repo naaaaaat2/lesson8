@@ -4,11 +4,9 @@ import requests
 # Введите ваш API URL ниже, например: https://api-v2/auth/keys
 BASE_URL = "https://api-v2/auth/keys"
 
-
 # Введите ваши учетные данные
 login = "some@example.com"
 password = "topsecret"
-
 
 # Введите ID компании
 companyId = "9347006b-dc75-4550-97d5-3008ba00d4a0"
